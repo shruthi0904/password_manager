@@ -1,0 +1,48 @@
+.credentials-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #94a3b8;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .credentials-item-container {
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-bottom: 32px;
+      min-width: 297px;
+    }
+  }
+  .initial-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #10b981;
+    text-align: center;
+  }
+  
+  .data {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+  
+  .icon1 {
+    width: 120px;
+  }
+  
+  .delete-btn {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .icon {
+    width: 20px;
+  }
+  
